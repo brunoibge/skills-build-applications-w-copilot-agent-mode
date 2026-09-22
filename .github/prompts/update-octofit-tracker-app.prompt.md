@@ -1,5 +1,5 @@
 ---
-mode: 'agent'
+agent: 'agent'
 model: GPT-4.1
 description: 'Atualizar a app Django Octofit Tracker com MongoDB, CORS, recursos da API e roteamento.'
 ---
