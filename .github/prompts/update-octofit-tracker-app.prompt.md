@@ -1,12 +1,16 @@
 ---
-agent: 'agent'
+mode: 'agent'
 model: GPT-4.1
 description: 'Atualizar a app Django Octofit Tracker com MongoDB, CORS, recursos da API e roteamento.'
 ---
 
 # Atualizações da App Django Octofit Tracker
 
-Todos os arquivos do projeto Django estão no diretório `octofit-tracker/backend/octofit_tracker`.
+- Todos os arquivos do projeto Django estão no diretório `octofit-tracker/backend/octofit_tracker`.
+
+1. Atualize `settings.py` para conexão MongoDB e CORS.
+2. Atualize `models.py`, `serializers.py`, `urls.py`, `views.py`, `tests.py` e `admin.py` para suportar coleções de usuários, equipes, atividades, placar de líderes e treinos.
+3. Certifique-se de que `/` aponta para a API e `api_root` está presente em `urls.py`.
 
 ## Objetivo
 
