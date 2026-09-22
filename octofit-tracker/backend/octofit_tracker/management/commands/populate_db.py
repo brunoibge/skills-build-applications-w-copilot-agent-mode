@@ -4,7 +4,7 @@ from octofit_tracker.models import Activity, LeaderboardEntry, Team, User, Worko
 
 
 class Command(BaseCommand):
-    help = 'Popular o banco de dados octofit_db com dados de teste'
+    help = 'Populate the octofit_db database with test data'
 
     def handle(self, *args, **options):
         Activity.objects.all().delete()
